@@ -7,23 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180A30B729B8676700CFE3CC /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A30B529B8676700CFE3CC /* ImageViewCell.swift */; };
+		180A30B829B8676700CFE3CC /* ImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180A30B629B8676700CFE3CC /* ImageViewCell.xib */; };
+		180A30BA29B8782E00CFE3CC /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A30B929B8782E00CFE3CC /* ImagePicker.swift */; };
+		180A30BE29B89E1C00CFE3CC /* QuestionImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A30BC29B89E1C00CFE3CC /* QuestionImageViewCell.swift */; };
+		180A30BF29B89E1C00CFE3CC /* QuestionImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180A30BD29B89E1C00CFE3CC /* QuestionImageViewCell.xib */; };
+		183D4EA929B7249E00151A07 /* AddQuestionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D4EA729B7249E00151A07 /* AddQuestionViewCell.swift */; };
+		183D4EAA29B7249E00151A07 /* AddQuestionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183D4EA829B7249E00151A07 /* AddQuestionViewCell.xib */; };
+		183D4EAD29B7255A00151A07 /* PopUpViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D4EAB29B7255A00151A07 /* PopUpViewCell.swift */; };
+		183D4EAE29B7255A00151A07 /* PopUpViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183D4EAC29B7255A00151A07 /* PopUpViewCell.xib */; };
 		1872EF6F29B1D95000C7F348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872EF6E29B1D95000C7F348 /* AppDelegate.swift */; };
-		1872EF7129B1D95000C7F348 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872EF7029B1D95000C7F348 /* SceneDelegate.swift */; };
-		1872EF7329B1D95000C7F348 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872EF7229B1D95000C7F348 /* ViewController.swift */; };
-		1872EF7629B1D95000C7F348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1872EF7429B1D95000C7F348 /* Main.storyboard */; };
 		1872EF7829B1D95100C7F348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1872EF7729B1D95100C7F348 /* Assets.xcassets */; };
 		1872EF7B29B1D95100C7F348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1872EF7929B1D95100C7F348 /* LaunchScreen.storyboard */; };
+		1872EF8429B1D9B100C7F348 /* SurpriseQuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872EF8229B1D9B100C7F348 /* SurpriseQuizVC.swift */; };
+		1872EF8529B1D9B100C7F348 /* SurpriseQuizVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1872EF8329B1D9B100C7F348 /* SurpriseQuizVC.xib */; };
+		1872EF8829B204F600C7F348 /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872EF8629B204F600C7F348 /* QuestionCell.swift */; };
+		1872EF8929B204F600C7F348 /* QuestionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1872EF8729B204F600C7F348 /* QuestionCell.xib */; };
+		1872EF8B29B2113400C7F348 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872EF8A29B2113400C7F348 /* CornerRadius.swift */; };
+		1872EF8E29B230CE00C7F348 /* OptionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872EF8C29B230CE00C7F348 /* OptionViewCell.swift */; };
+		1872EF8F29B230CE00C7F348 /* OptionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1872EF8D29B230CE00C7F348 /* OptionViewCell.xib */; };
+		18A1B62D29B35282009BEED4 /* SurpriseQuizVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1B62C29B35282009BEED4 /* SurpriseQuizVM.swift */; };
+		18A1B62F29B3528D009BEED4 /* SurpriseQuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1B62E29B3528D009BEED4 /* SurpriseQuizModel.swift */; };
+		18A1B63529B352A2009BEED4 /* UIScreenExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1B63229B352A2009BEED4 /* UIScreenExtention.swift */; };
+		18A1B63629B352A3009BEED4 /* ColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1B63329B352A2009BEED4 /* ColorExtention.swift */; };
+		18A5FBC029BA1BEA00FDF249 /* ImagePreViewPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A5FBBE29BA1BEA00FDF249 /* ImagePreViewPopUpView.swift */; };
+		18A5FBC129BA1BEA00FDF249 /* ImagePreViewPopUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A5FBBF29BA1BEA00FDF249 /* ImagePreViewPopUpView.xib */; };
+		18A7454D29B72184005B12B8 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A7454B29B72184005B12B8 /* PopUpView.swift */; };
+		18A7454E29B72184005B12B8 /* PopUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A7454C29B72184005B12B8 /* PopUpView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180A30B529B8676700CFE3CC /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
+		180A30B629B8676700CFE3CC /* ImageViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewCell.xib; sourceTree = "<group>"; };
+		180A30B929B8782E00CFE3CC /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		180A30BC29B89E1C00CFE3CC /* QuestionImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionImageViewCell.swift; sourceTree = "<group>"; };
+		180A30BD29B89E1C00CFE3CC /* QuestionImageViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionImageViewCell.xib; sourceTree = "<group>"; };
+		183D4EA729B7249E00151A07 /* AddQuestionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddQuestionViewCell.swift; sourceTree = "<group>"; };
+		183D4EA829B7249E00151A07 /* AddQuestionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddQuestionViewCell.xib; sourceTree = "<group>"; };
+		183D4EAB29B7255A00151A07 /* PopUpViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewCell.swift; sourceTree = "<group>"; };
+		183D4EAC29B7255A00151A07 /* PopUpViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpViewCell.xib; sourceTree = "<group>"; };
 		1872EF6B29B1D95000C7F348 /* SurpriseQuizXIB POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SurpriseQuizXIB POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1872EF6E29B1D95000C7F348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1872EF7029B1D95000C7F348 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1872EF7229B1D95000C7F348 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1872EF7529B1D95000C7F348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1872EF7729B1D95100C7F348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1872EF7A29B1D95100C7F348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1872EF7C29B1D95100C7F348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1872EF8229B1D9B100C7F348 /* SurpriseQuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurpriseQuizVC.swift; sourceTree = "<group>"; };
+		1872EF8329B1D9B100C7F348 /* SurpriseQuizVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SurpriseQuizVC.xib; sourceTree = "<group>"; };
+		1872EF8629B204F600C7F348 /* QuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
+		1872EF8729B204F600C7F348 /* QuestionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionCell.xib; sourceTree = "<group>"; };
+		1872EF8A29B2113400C7F348 /* CornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
+		1872EF8C29B230CE00C7F348 /* OptionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewCell.swift; sourceTree = "<group>"; };
+		1872EF8D29B230CE00C7F348 /* OptionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionViewCell.xib; sourceTree = "<group>"; };
+		18A1B62C29B35282009BEED4 /* SurpriseQuizVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurpriseQuizVM.swift; sourceTree = "<group>"; };
+		18A1B62E29B3528D009BEED4 /* SurpriseQuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurpriseQuizModel.swift; sourceTree = "<group>"; };
+		18A1B63229B352A2009BEED4 /* UIScreenExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreenExtention.swift; sourceTree = "<group>"; };
+		18A1B63329B352A2009BEED4 /* ColorExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtention.swift; sourceTree = "<group>"; };
+		18A5FBBE29BA1BEA00FDF249 /* ImagePreViewPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreViewPopUpView.swift; sourceTree = "<group>"; };
+		18A5FBBF29BA1BEA00FDF249 /* ImagePreViewPopUpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagePreViewPopUpView.xib; sourceTree = "<group>"; };
+		18A7454B29B72184005B12B8 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		18A7454C29B72184005B12B8 /* PopUpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +79,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180A30B429B8673A00CFE3CC /* ImageViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				180A30B529B8676700CFE3CC /* ImageViewCell.swift */,
+				180A30B629B8676700CFE3CC /* ImageViewCell.xib */,
+			);
+			path = ImageViewCell;
+			sourceTree = "<group>";
+		};
+		180A30BB29B89DDA00CFE3CC /* ImageViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				180A30BC29B89E1C00CFE3CC /* QuestionImageViewCell.swift */,
+				180A30BD29B89E1C00CFE3CC /* QuestionImageViewCell.xib */,
+			);
+			path = ImageViewCell;
+			sourceTree = "<group>";
+		};
+		183D4EA629B7249E00151A07 /* AddQuestionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				183D4EA729B7249E00151A07 /* AddQuestionViewCell.swift */,
+				183D4EA829B7249E00151A07 /* AddQuestionViewCell.xib */,
+			);
+			path = AddQuestionViewCell;
+			sourceTree = "<group>";
+		};
 		1872EF6229B1D95000C7F348 = {
 			isa = PBXGroup;
 			children = (
@@ -57,14 +126,80 @@
 			isa = PBXGroup;
 			children = (
 				1872EF6E29B1D95000C7F348 /* AppDelegate.swift */,
-				1872EF7029B1D95000C7F348 /* SceneDelegate.swift */,
-				1872EF7229B1D95000C7F348 /* ViewController.swift */,
-				1872EF7429B1D95000C7F348 /* Main.storyboard */,
+				18A1B63729B35370009BEED4 /* SurpriseQuizView */,
+				18A1B63829B354E2009BEED4 /* QuestionCell */,
+				18A1B63929B35517009BEED4 /* OptionViewCell */,
+				180A30B429B8673A00CFE3CC /* ImageViewCell */,
+				18A7454F29B72189005B12B8 /* PopUpView */,
+				18A5FBBD29BA1B8E00FDF249 /* ImagePreViewPopUpView */,
+				18A1B63029B352A2009BEED4 /* Extension */,
 				1872EF7729B1D95100C7F348 /* Assets.xcassets */,
 				1872EF7929B1D95100C7F348 /* LaunchScreen.storyboard */,
 				1872EF7C29B1D95100C7F348 /* Info.plist */,
 			);
 			path = "SurpriseQuizXIB POC";
+			sourceTree = "<group>";
+		};
+		18A1B63029B352A2009BEED4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				180A30B929B8782E00CFE3CC /* ImagePicker.swift */,
+				1872EF8A29B2113400C7F348 /* CornerRadius.swift */,
+				18A1B63229B352A2009BEED4 /* UIScreenExtention.swift */,
+				18A1B63329B352A2009BEED4 /* ColorExtention.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		18A1B63729B35370009BEED4 /* SurpriseQuizView */ = {
+			isa = PBXGroup;
+			children = (
+				18A1B62E29B3528D009BEED4 /* SurpriseQuizModel.swift */,
+				18A1B62C29B35282009BEED4 /* SurpriseQuizVM.swift */,
+				1872EF8229B1D9B100C7F348 /* SurpriseQuizVC.swift */,
+				1872EF8329B1D9B100C7F348 /* SurpriseQuizVC.xib */,
+			);
+			path = SurpriseQuizView;
+			sourceTree = "<group>";
+		};
+		18A1B63829B354E2009BEED4 /* QuestionCell */ = {
+			isa = PBXGroup;
+			children = (
+				1872EF8629B204F600C7F348 /* QuestionCell.swift */,
+				1872EF8729B204F600C7F348 /* QuestionCell.xib */,
+				180A30BB29B89DDA00CFE3CC /* ImageViewCell */,
+				183D4EA629B7249E00151A07 /* AddQuestionViewCell */,
+			);
+			path = QuestionCell;
+			sourceTree = "<group>";
+		};
+		18A1B63929B35517009BEED4 /* OptionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1872EF8C29B230CE00C7F348 /* OptionViewCell.swift */,
+				1872EF8D29B230CE00C7F348 /* OptionViewCell.xib */,
+			);
+			path = OptionViewCell;
+			sourceTree = "<group>";
+		};
+		18A5FBBD29BA1B8E00FDF249 /* ImagePreViewPopUpView */ = {
+			isa = PBXGroup;
+			children = (
+				18A5FBBE29BA1BEA00FDF249 /* ImagePreViewPopUpView.swift */,
+				18A5FBBF29BA1BEA00FDF249 /* ImagePreViewPopUpView.xib */,
+			);
+			path = ImagePreViewPopUpView;
+			sourceTree = "<group>";
+		};
+		18A7454F29B72189005B12B8 /* PopUpView */ = {
+			isa = PBXGroup;
+			children = (
+				18A7454B29B72184005B12B8 /* PopUpView.swift */,
+				18A7454C29B72184005B12B8 /* PopUpView.xib */,
+				183D4EAB29B7255A00151A07 /* PopUpViewCell.swift */,
+				183D4EAC29B7255A00151A07 /* PopUpViewCell.xib */,
+			);
+			path = PopUpView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +260,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1872EF8F29B230CE00C7F348 /* OptionViewCell.xib in Resources */,
+				180A30B829B8676700CFE3CC /* ImageViewCell.xib in Resources */,
+				183D4EAE29B7255A00151A07 /* PopUpViewCell.xib in Resources */,
 				1872EF7B29B1D95100C7F348 /* LaunchScreen.storyboard in Resources */,
+				1872EF8929B204F600C7F348 /* QuestionCell.xib in Resources */,
+				1872EF8529B1D9B100C7F348 /* SurpriseQuizVC.xib in Resources */,
+				180A30BF29B89E1C00CFE3CC /* QuestionImageViewCell.xib in Resources */,
+				18A5FBC129BA1BEA00FDF249 /* ImagePreViewPopUpView.xib in Resources */,
+				183D4EAA29B7249E00151A07 /* AddQuestionViewCell.xib in Resources */,
+				18A7454E29B72184005B12B8 /* PopUpView.xib in Resources */,
 				1872EF7829B1D95100C7F348 /* Assets.xcassets in Resources */,
-				1872EF7629B1D95000C7F348 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +281,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1872EF7329B1D95000C7F348 /* ViewController.swift in Sources */,
+				18A1B62F29B3528D009BEED4 /* SurpriseQuizModel.swift in Sources */,
+				1872EF8829B204F600C7F348 /* QuestionCell.swift in Sources */,
+				180A30BE29B89E1C00CFE3CC /* QuestionImageViewCell.swift in Sources */,
+				1872EF8429B1D9B100C7F348 /* SurpriseQuizVC.swift in Sources */,
+				180A30BA29B8782E00CFE3CC /* ImagePicker.swift in Sources */,
+				18A1B62D29B35282009BEED4 /* SurpriseQuizVM.swift in Sources */,
+				1872EF8B29B2113400C7F348 /* CornerRadius.swift in Sources */,
 				1872EF6F29B1D95000C7F348 /* AppDelegate.swift in Sources */,
-				1872EF7129B1D95000C7F348 /* SceneDelegate.swift in Sources */,
+				183D4EAD29B7255A00151A07 /* PopUpViewCell.swift in Sources */,
+				180A30B729B8676700CFE3CC /* ImageViewCell.swift in Sources */,
+				18A5FBC029BA1BEA00FDF249 /* ImagePreViewPopUpView.swift in Sources */,
+				183D4EA929B7249E00151A07 /* AddQuestionViewCell.swift in Sources */,
+				18A1B63529B352A2009BEED4 /* UIScreenExtention.swift in Sources */,
+				18A7454D29B72184005B12B8 /* PopUpView.swift in Sources */,
+				18A1B63629B352A3009BEED4 /* ColorExtention.swift in Sources */,
+				1872EF8E29B230CE00C7F348 /* OptionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1872EF7429B1D95000C7F348 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1872EF7529B1D95000C7F348 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1872EF7929B1D95100C7F348 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +440,6 @@
 				INFOPLIST_FILE = "SurpriseQuizXIB POC/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +467,6 @@
 				INFOPLIST_FILE = "SurpriseQuizXIB POC/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
